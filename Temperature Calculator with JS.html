@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form onsubmit="return getData(event)">
+    <label for="ti">ti= C:</label><br>
+    <input type="text" id="ti" name="ti"><br>
+    <label for="Rsi">Rsi= m2K/W:</label><br>
+    <input type="text" id="Rsi" name="Rsi"><br>
+    <label for="te">te= C:</label><br>
+    <input type="text" id="te" name="te"><br>
+    <label for="Rse">Rse= m2K/W:</label><br>
+    <input type="text" id="Rse" name="Rse"><br>
+    <label for="straturi"> straturi: d, λ</label><br>
+    <textarea id="straturi" name="straturi"></textarea>
+    <input type="submit" value="Submit" >
+  </form> 
+</body>
+<body>
+  <canvas id="myChart" width="100" height="100"></canvas>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
